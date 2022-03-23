@@ -28,7 +28,7 @@ const Inicio = () => {
 
     const borrarCliente = async (id) => {
       try {
-        const url = `http://localhost:4000/clientes/${id}`
+        const url = `${import.meta.env.VITE_API_URL}/${id}`
 
         const respuesta = await fetch(url, { method: 'DELETE' })
         const resultado = await respuesta.json()

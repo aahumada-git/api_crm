@@ -33,8 +33,8 @@ const Formulario = ({ cliente }) => {
     const handleSubmit = async (values) => {
         try {
             const url = editar 
-                            ? `http://localhost:4000/clientes/${cliente.id}`
-                            : 'http://localhost:4000/clientes'
+                            ? `${import.meta.env.VITE_API_URL}/${cliente.id}`
+                            : `${import.meta.env.VITE_API_URL}`
 
             const respuesta = await fetch( url, {
                 method: editar ? 'PUT' : 'POST',
