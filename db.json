@@ -1,3 +1,28 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Marck Sukember",
+      "empresa": "Meta",
+      "email": "mark@meta.com",
+      "telefono": "+56 9 1111 2222",
+      "notas": "Pura Avaricia",
+      "id": 1
+    },
+    {
+      "nombre": "Nicola Tesla",
+      "empresa": "Corriente Alterna",
+      "email": "nico.tesla@alterna.com",
+      "telefono": "+56 9 3693 6936",
+      "notas": "Pura Genialidad",
+      "id": 2
+    },
+    {
+      "nombre": "Teresa Calcuta",
+      "empresa": "Hospital del Mundo",
+      "email": "tere@hospital.cl",
+      "telefono": "+56 9 7777 88888",
+      "notas": "Pura Bondad",
+      "id": 3
+    }
+  ]
 }
