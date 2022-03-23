@@ -1,28 +1,3 @@
 {
-  "clientes": [
-    {
-      "nombre": "ALEX",
-      "empresa": "FINNING SOUTH AMERICA",
-      "email": "alex.ahumada@finning.cl",
-      "telefono": "+56 2 927 7788",
-      "notas": "ssss",
-      "id": 1
-    },
-    {
-      "nombre": "NetFlix",
-      "empresa": "10846294-9",
-      "email": "alex.ahumada@gmail.com",
-      "telefono": "966286954",
-      "notas": "",
-      "id": 2
-    },
-    {
-      "nombre": "cama",
-      "empresa": "H2D-LAB",
-      "email": "alex.ahumada@gmail.com",
-      "telefono": "966286954",
-      "notas": "",
-      "id": 3
-    }
-  ]
+  "clientes": []
 }
